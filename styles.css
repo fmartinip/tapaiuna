@@ -1,0 +1,307 @@
+/*geral */
+*{
+    border: 0;
+    margin: 0;
+    background: auto;
+}
+body{
+    max-height: 100%;
+}
+
+html {
+    font-family: 'open sans', sans-serif
+}
+
+body {
+    margin: 0;
+    background-color: #ccc;
+}
+
+h1, h2, h3, h4, p, span{
+    margin: 0;
+    color: dimgray;
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    color: yellow;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+/*header*/
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+/*navibar*/
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo {
+    width: 100px;
+    height: 70px;
+    margin-top: 15px;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: yellow;
+    transition: .5s;
+}
+
+.nav-container li a:hover {
+   color: #fff;   
+}
+
+/*banner*/
+#main-banner {
+    background: url(imagens/banner-sel-02.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 0 55%;
+    position: relative;
+}
+
+#main-banner2 {
+    background: url(imagens/salao-001.JPG) no-repeat;
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+}
+
+#main-banner3 {
+    background: url(imagens/churrasco-banner-01.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+}
+
+#search-form {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+#search-form2 {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-bottom: 10em;
+    text-align: center;
+}
+
+#search-form h1{
+    font-size: 40px;
+    
+}
+#search-form h5{
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 5px 3px 5px rgb(165, 160, 160);
+}
+#search-form2 h5{
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 5px 3px 5px rgb(165, 160, 160);
+}
+#search-form2 h6{
+    padding-top: 1rem;
+    font-size: 25px;
+    font-weight: 300;
+    color: yellow;
+    text-shadow: 5px 3px 5px rgb(253, 250, 250);
+}
+.pictures p{
+    color: dimgray;
+    padding: 15px 0 5px 0;
+}
+.pictures h1{
+    margin-top: 2rem;
+}
+.images{
+    display: inline-flex;
+    align-items: center;
+}
+.images img{
+    width: 250px;
+    padding: 0 10px 0 10px;
+    margin: 3rem 0 2rem 3.4rem;
+    vertical-align: center;
+    border-radius: 15px;
+}
+
+#serach-form input, #search-form select{
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+#search-form input[type=submit] {
+    background-color: #338133;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#search-form input[type=submi]:hover {
+    background-color: blue;
+}
+/*Banner Saladas*/
+.banners{
+    width: 1280px;
+    height: 300px;
+    background-color: rosybrown;
+    
+}
+
+.banners img{
+    width: 100%;
+}
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin: 1rem 1rem 1rem 4rem;
+}
+
+.frontpage {
+   margin-left: 1%;
+   display: inline;
+   border: 5px #6d6d6d;
+ }
+ 
+.descrition{
+    max-width: relative;
+    position: relative;
+    display: inline-flex;
+}
+
+.restaurante {
+    max-width: 600px;
+    align-items: center;
+   object-position: right;
+   padding: 20px;
+}
+
+.restaurante img{
+    width: 500px;
+    position: relative;
+    margin-left: 9%;    
+}
+
+.restaurante p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.buffet {
+    align-items: center;
+    padding: 20px;
+}
+
+.buffet img{
+    size: unset;
+    width: 450px;
+    margin-left: 9%;
+}
+
+.buffet p{
+    text-align: center;
+    padding: 20px 0 12px 0;
+}
+
+.descrition img{
+    width: 300px;
+    height: 230px;
+    margin: 1rem 3rem;
+    border-radius: 10%;
+}
+
+.section{
+    display: inline-flex;
+    padding: 1rem;
+    text-align: center;
+}
+
+.section a{
+    text-decoration: wavy;
+    color: dimgray;
+}
+
+.button{
+    text-align: center;
+}
+.button:hover{
+    color:  whitesmoke;
+    border: 2px solid rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* Footer-Rodape*/
+footer{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.foot a{
+    margin: 0 5rem;
+    text-decoration: auto;
+    color: #ccc;
+}
